@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fariswkt/ros2_humble_ws/src/package_tubes_uro -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fariswkt/ros2_humble_ws/install/package_tubes_uro
+[0.432s] -- The C compiler identification is GNU 11.4.0
+[1.201s] -- The CXX compiler identification is GNU 11.4.0
+[1.918s] -- Detecting C compiler ABI info
+[2.093s] -- Detecting C compiler ABI info - done
+[2.100s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.100s] -- Detecting C compile features
+[2.101s] -- Detecting C compile features - done
+[2.104s] -- Detecting CXX compiler ABI info
+[2.287s] -- Detecting CXX compiler ABI info - done
+[2.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.294s] -- Detecting CXX compile features
+[2.294s] -- Detecting CXX compile features - done
+[2.295s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.434s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.486s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.507s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.704s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.708s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.715s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.739s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.773s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.775s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.442s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.194s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.203s] -- Looking for pthread.h
+[12.368s] -- Looking for pthread.h - found
+[12.369s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.524s] -- Found Threads: TRUE  
+[12.572s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[15.330s] -- Configuring done
+[15.341s] -- Generating done
+[15.346s] -- Build files have been written to: /home/fariswkt/ros2_humble_ws/build/package_tubes_uro
+[15.356s] Invoked command in '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fariswkt/ros2_humble_ws/src/package_tubes_uro -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fariswkt/ros2_humble_ws/install/package_tubes_uro
+[15.358s] Invoking command in '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fariswkt/ros2_humble_ws/build/package_tubes_uro -- -j16 -l16
+[15.405s] [ 50%] [32mBuilding CXX object CMakeFiles/urdf_example_node.dir/src/urdf_example_node.cpp.o[0m
+[25.428s] [100%] [32m[1mLinking CXX executable urdf_example_node[0m
+[25.709s] [100%] Built target urdf_example_node
+[25.718s] Invoked command in '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fariswkt/ros2_humble_ws/build/package_tubes_uro -- -j16 -l16
+[25.728s] Invoking command in '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fariswkt/ros2_humble_ws/build/package_tubes_uro
+[25.734s] -- Install configuration: ""
+[25.734s] -- Execute custom install script
+[25.735s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/lib/package_tubes_uro/urdf_example_node
+[25.742s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/launch/launch_robot_in_gazebo.launch.py
+[25.748s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/launch/launch_robot_in_rviz.launch.py
+[25.754s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/urdf/robot_tubes_uro.urdf
+[25.761s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/ament_index/resource_index/package_run_dependencies/package_tubes_uro
+[25.766s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/ament_index/resource_index/parent_prefix_path/package_tubes_uro
+[25.773s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/ament_prefix_path.sh
+[25.782s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/ament_prefix_path.dsv
+[25.789s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/path.sh
+[25.797s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/path.dsv
+[25.804s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.bash
+[25.810s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.sh
+[25.816s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.zsh
+[25.822s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.dsv
+[25.828s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/package.dsv
+[25.835s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/ament_index/resource_index/packages/package_tubes_uro
+[25.841s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/cmake/package_tubes_uroConfig.cmake
+[25.847s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/cmake/package_tubes_uroConfig-version.cmake
+[25.853s] -- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/package.xml
+[25.860s] Invoked command in '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fariswkt/ros2_humble_ws/build/package_tubes_uro

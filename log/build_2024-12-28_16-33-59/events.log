@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (package_tubes_uro) JobQueued: {'identifier': 'package_tubes_uro', 'dependencies': OrderedDict()}
+[0.000624] (package_tubes_uro) JobStarted: {'identifier': 'package_tubes_uro'}
+[0.014497] (package_tubes_uro) JobProgress: {'identifier': 'package_tubes_uro', 'progress': 'cmake'}
+[0.017306] (package_tubes_uro) JobProgress: {'identifier': 'package_tubes_uro', 'progress': 'build'}
+[0.017983] (package_tubes_uro) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro', '--', '-j16', '-l16'], 'cwd': '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fariswkt'), ('GIT_ASKPASS', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fariswkt'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-971df5a2-e1da-458d-bbd5-ce959e6875aa.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fariswkt'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/522_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Eclipse Adoptium/jdk-17.0.11.9-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Faris/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Faris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Faris/Desktop/opencv/install/x64/vc17/bin:/mnt/c/Users/Faris/Desktop/opencv/install/x64/vc17/lib:/mnt/c/Program Files (x86)/Intel/oneAPI/tbb/2022.0/bin:/mnt/c/Users/Faris/Desktop/opencv/build/bin/Debug:/mnt/c/Users/Faris/Desktop/opencv/build/bin/Release:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5691b8abcc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.050375] (package_tubes_uro) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099931] (-) TimerEvent: {}
+[0.152885] (package_tubes_uro) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.161896] (package_tubes_uro) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.200320] (-) TimerEvent: {}
+[0.301334] (-) TimerEvent: {}
+[0.336756] (package_tubes_uro) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.339225] (package_tubes_uro) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.344271] (package_tubes_uro) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.352110] (package_tubes_uro) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.362358] (package_tubes_uro) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.388313] (package_tubes_uro) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.389304] (package_tubes_uro) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.401599] (-) TimerEvent: {}
+[0.502810] (-) TimerEvent: {}
+[0.604209] (-) TimerEvent: {}
+[0.705968] (-) TimerEvent: {}
+[0.807098] (-) TimerEvent: {}
+[0.908499] (-) TimerEvent: {}
+[1.009448] (-) TimerEvent: {}
+[1.110502] (-) TimerEvent: {}
+[1.211207] (-) TimerEvent: {}
+[1.312362] (-) TimerEvent: {}
+[1.413996] (-) TimerEvent: {}
+[1.515651] (-) TimerEvent: {}
+[1.616861] (-) TimerEvent: {}
+[1.718195] (-) TimerEvent: {}
+[1.819511] (-) TimerEvent: {}
+[1.920504] (-) TimerEvent: {}
+[2.021866] (-) TimerEvent: {}
+[2.123141] (-) TimerEvent: {}
+[2.224569] (-) TimerEvent: {}
+[2.326047] (-) TimerEvent: {}
+[2.427814] (-) TimerEvent: {}
+[2.529140] (-) TimerEvent: {}
+[2.630390] (-) TimerEvent: {}
+[2.731774] (-) TimerEvent: {}
+[2.832926] (-) TimerEvent: {}
+[2.933975] (-) TimerEvent: {}
+[3.035033] (-) TimerEvent: {}
+[3.135525] (-) TimerEvent: {}
+[3.236339] (-) TimerEvent: {}
+[3.336953] (-) TimerEvent: {}
+[3.437828] (-) TimerEvent: {}
+[3.538531] (-) TimerEvent: {}
+[3.639276] (-) TimerEvent: {}
+[3.739840] (-) TimerEvent: {}
+[3.841062] (-) TimerEvent: {}
+[3.942058] (-) TimerEvent: {}
+[4.042677] (-) TimerEvent: {}
+[4.143273] (-) TimerEvent: {}
+[4.244338] (-) TimerEvent: {}
+[4.345104] (-) TimerEvent: {}
+[4.446083] (-) TimerEvent: {}
+[4.547524] (-) TimerEvent: {}
+[4.648966] (-) TimerEvent: {}
+[4.750326] (-) TimerEvent: {}
+[4.851925] (-) TimerEvent: {}
+[4.953368] (-) TimerEvent: {}
+[5.054878] (-) TimerEvent: {}
+[5.155835] (-) TimerEvent: {}
+[5.256471] (-) TimerEvent: {}
+[5.357617] (-) TimerEvent: {}
+[5.458417] (-) TimerEvent: {}
+[5.559297] (-) TimerEvent: {}
+[5.660096] (-) TimerEvent: {}
+[5.761183] (-) TimerEvent: {}
+[5.862799] (-) TimerEvent: {}
+[5.963601] (-) TimerEvent: {}
+[6.064315] (-) TimerEvent: {}
+[6.165264] (-) TimerEvent: {}
+[6.266332] (-) TimerEvent: {}
+[6.367808] (-) TimerEvent: {}
+[6.468916] (-) TimerEvent: {}
+[6.570154] (-) TimerEvent: {}
+[6.671300] (-) TimerEvent: {}
+[6.772556] (-) TimerEvent: {}
+[6.873102] (-) TimerEvent: {}
+[6.974068] (-) TimerEvent: {}
+[7.074885] (-) TimerEvent: {}
+[7.176073] (-) TimerEvent: {}
+[7.277316] (-) TimerEvent: {}
+[7.378185] (-) TimerEvent: {}
+[7.479956] (-) TimerEvent: {}
+[7.585506] (-) TimerEvent: {}
+[7.692819] (-) TimerEvent: {}
+[7.797565] (-) TimerEvent: {}
+[7.898076] (-) TimerEvent: {}
+[7.999496] (-) TimerEvent: {}
+[8.101156] (-) TimerEvent: {}
+[8.209676] (-) TimerEvent: {}
+[8.310455] (-) TimerEvent: {}
+[8.413251] (-) TimerEvent: {}
+[8.516482] (-) TimerEvent: {}
+[8.623808] (-) TimerEvent: {}
+[8.726428] (-) TimerEvent: {}
+[8.829277] (-) TimerEvent: {}
+[8.930473] (-) TimerEvent: {}
+[9.031545] (-) TimerEvent: {}
+[9.134318] (-) TimerEvent: {}
+[9.236552] (-) TimerEvent: {}
+[9.337911] (-) TimerEvent: {}
+[9.441246] (-) TimerEvent: {}
+[9.542920] (-) TimerEvent: {}
+[9.650072] (-) TimerEvent: {}
+[9.754747] (-) TimerEvent: {}
+[9.862389] (-) TimerEvent: {}
+[9.967410] (-) TimerEvent: {}
+[10.068962] (-) TimerEvent: {}
+[10.171000] (-) TimerEvent: {}
+[10.272926] (-) TimerEvent: {}
+[10.375023] (-) TimerEvent: {}
+[10.478424] (-) TimerEvent: {}
+[10.581000] (-) TimerEvent: {}
+[10.683978] (-) TimerEvent: {}
+[10.787155] (-) TimerEvent: {}
+[10.889718] (-) TimerEvent: {}
+[10.995736] (-) TimerEvent: {}
+[11.099719] (-) TimerEvent: {}
+[11.205399] (-) TimerEvent: {}
+[11.312555] (-) TimerEvent: {}
+[11.413578] (-) TimerEvent: {}
+[11.520449] (-) TimerEvent: {}
+[11.627892] (-) TimerEvent: {}
+[11.732865] (-) TimerEvent: {}
+[11.837624] (-) TimerEvent: {}
+[11.944974] (-) TimerEvent: {}
+[12.046396] (-) TimerEvent: {}
+[12.150107] (-) TimerEvent: {}
+[12.258341] (-) TimerEvent: {}
+[12.359856] (-) TimerEvent: {}
+[12.466324] (-) TimerEvent: {}
+[12.568856] (-) TimerEvent: {}
+[12.675379] (-) TimerEvent: {}
+[12.777224] (-) TimerEvent: {}
+[12.878139] (-) TimerEvent: {}
+[12.979576] (-) TimerEvent: {}
+[13.081000] (-) TimerEvent: {}
+[13.181975] (-) TimerEvent: {}
+[13.282896] (-) TimerEvent: {}
+[13.383708] (-) TimerEvent: {}
+[13.484669] (-) TimerEvent: {}
+[13.585762] (-) TimerEvent: {}
+[13.687725] (-) TimerEvent: {}
+[13.788939] (-) TimerEvent: {}
+[13.889442] (-) TimerEvent: {}
+[13.989993] (-) TimerEvent: {}
+[14.090926] (-) TimerEvent: {}
+[14.193621] (-) TimerEvent: {}
+[14.296385] (-) TimerEvent: {}
+[14.398800] (-) TimerEvent: {}
+[14.499410] (-) TimerEvent: {}
+[14.600186] (-) TimerEvent: {}
+[14.649237] (package_tubes_uro) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.692311] (package_tubes_uro) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[14.700537] (-) TimerEvent: {}
+[14.801162] (-) TimerEvent: {}
+[14.901960] (-) TimerEvent: {}
+[15.002808] (-) TimerEvent: {}
+[15.104538] (-) TimerEvent: {}
+[15.206617] (-) TimerEvent: {}
+[15.307740] (-) TimerEvent: {}
+[15.408423] (-) TimerEvent: {}
+[15.508915] (-) TimerEvent: {}
+[15.609378] (-) TimerEvent: {}
+[15.711214] (-) TimerEvent: {}
+[15.815341] (-) TimerEvent: {}
+[15.918766] (-) TimerEvent: {}
+[16.019867] (-) TimerEvent: {}
+[16.123722] (-) TimerEvent: {}
+[16.228098] (-) TimerEvent: {}
+[16.332345] (-) TimerEvent: {}
+[16.433761] (-) TimerEvent: {}
+[16.536048] (-) TimerEvent: {}
+[16.637139] (-) TimerEvent: {}
+[16.739001] (-) TimerEvent: {}
+[16.840042] (-) TimerEvent: {}
+[16.940646] (-) TimerEvent: {}
+[17.041367] (-) TimerEvent: {}
+[17.142672] (-) TimerEvent: {}
+[17.244653] (-) TimerEvent: {}
+[17.346871] (-) TimerEvent: {}
+[17.447787] (-) TimerEvent: {}
+[17.548515] (-) TimerEvent: {}
+[17.648944] (-) TimerEvent: {}
+[17.751045] (-) TimerEvent: {}
+[17.851966] (-) TimerEvent: {}
+[17.888661] (package_tubes_uro) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.908879] (package_tubes_uro) StdoutLine: {'line': b'-- Generating done\n'}
+[17.915669] (package_tubes_uro) StdoutLine: {'line': b'-- Build files have been written to: /home/fariswkt/ros2_humble_ws/build/package_tubes_uro\n'}
+[17.941182] (package_tubes_uro) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target urdf_example_node\x1b[0m\n'}
+[17.952341] (-) TimerEvent: {}
+[17.954424] (package_tubes_uro) StdoutLine: {'line': b'[100%] Built target urdf_example_node\n'}
+[17.964157] (package_tubes_uro) CommandEnded: {'returncode': 0}
+[17.965762] (package_tubes_uro) JobProgress: {'identifier': 'package_tubes_uro', 'progress': 'install'}
+[17.973508] (package_tubes_uro) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro'], 'cwd': '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fariswkt'), ('GIT_ASKPASS', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fariswkt'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-971df5a2-e1da-458d-bbd5-ce959e6875aa.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fariswkt'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/522_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fariswkt/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Eclipse Adoptium/jdk-17.0.11.9-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Faris/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Faris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Faris/Desktop/opencv/install/x64/vc17/bin:/mnt/c/Users/Faris/Desktop/opencv/install/x64/vc17/lib:/mnt/c/Program Files (x86)/Intel/oneAPI/tbb/2022.0/bin:/mnt/c/Users/Faris/Desktop/opencv/build/bin/Debug:/mnt/c/Users/Faris/Desktop/opencv/build/bin/Release:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5691b8abcc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/fariswkt/ros2_humble_ws/build/package_tubes_uro'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.979408] (package_tubes_uro) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.979882] (package_tubes_uro) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.980344] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/lib/package_tubes_uro/urdf_example_node\n'}
+[17.980766] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/launch/launch_robot_in_gazebo.launch.py\n'}
+[17.980877] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/launch/launch_robot_in_rviz.launch.py\n'}
+[17.981125] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/urdf/robot_tubes_uro.urdf\n'}
+[17.981186] (package_tubes_uro) StdoutLine: {'line': b'-- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/urdf/robot_tubes_uro_gazebo.urdf.xacro\n'}
+[17.987700] (package_tubes_uro) StdoutLine: {'line': b'-- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/worlds/empty.world\n'}
+[17.993589] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/ament_index/resource_index/package_run_dependencies/package_tubes_uro\n'}
+[17.993888] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/ament_index/resource_index/parent_prefix_path/package_tubes_uro\n'}
+[17.994040] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/ament_prefix_path.sh\n'}
+[17.994236] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/ament_prefix_path.dsv\n'}
+[17.994658] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/path.sh\n'}
+[17.995188] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/environment/path.dsv\n'}
+[17.996048] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.bash\n'}
+[17.996306] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.sh\n'}
+[17.996462] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.zsh\n'}
+[17.996580] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/local_setup.dsv\n'}
+[17.996689] (package_tubes_uro) StdoutLine: {'line': b'-- Symlinking: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/package.dsv\n'}
+[18.003334] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/ament_index/resource_index/packages/package_tubes_uro\n'}
+[18.003594] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/cmake/package_tubes_uroConfig.cmake\n'}
+[18.003938] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/cmake/package_tubes_uroConfig-version.cmake\n'}
+[18.004145] (package_tubes_uro) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fariswkt/ros2_humble_ws/install/package_tubes_uro/share/package_tubes_uro/package.xml\n'}
+[18.005417] (package_tubes_uro) CommandEnded: {'returncode': 0}
+[18.031862] (package_tubes_uro) JobEnded: {'identifier': 'package_tubes_uro', 'rc': 0}
+[18.034625] (-) EventReactorShutdown: {}

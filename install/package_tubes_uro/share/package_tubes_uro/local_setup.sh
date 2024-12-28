@@ -1,0 +1,1 @@
+/home/fariswkt/ros2_humble_ws/build/package_tubes_uro/ament_cmake_environment_hooks/local_setup.sh

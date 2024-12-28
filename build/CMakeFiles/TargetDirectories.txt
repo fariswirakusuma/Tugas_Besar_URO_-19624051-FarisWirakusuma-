@@ -1,0 +1,10 @@
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/uninstall.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/package_tubes_uro_uninstall.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/urdf_example_node.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/test.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/edit_cache.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/rebuild_cache.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/list_install_components.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/install.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/install/local.dir
+/home/fariswkt/ros2_humble_ws/build/CMakeFiles/install/strip.dir

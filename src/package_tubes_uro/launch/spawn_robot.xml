@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Argument for specifying the robot's URDF file -->
+    <arg name="urdf_file" default="$(find package_tubes_uro)/urdf/robot_tubes_uro.urdf"/>
+    
+    <!-- Publish the robot_description parameter -->
+    <param name="robot_description" command="xacro $(arg urdf_file)" />
+    
+    <!-- Launch Gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find package_tubes_uro)/worlds/empty.world" />
+    </include>
+    
+    <!-- Spawn robot in Gazebo -->
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="-param robot_description -model robot_tubes_uro"/>
+</launch>
